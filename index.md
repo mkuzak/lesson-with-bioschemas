@@ -1,5 +1,22 @@
 ---
 layout: lesson
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  about: "This is a lesson example explaining how to develop the lesson."
+  audience:
+    - "@type": Audience
+      name: WebMaster
+
+  name: "Lesson Example"
+  author: ["Mateusz Kuzak", "Niall Beard"]
+  contributor:
+    - "@type": Person
+      name: "Tom Tom"
+  description: "Learn how to build Carpentries lessons"
+  keywords: ["Carpentries", "Lesson"]
+  license: CC-BY 4.0
+  version: 1.0
 root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
