@@ -1,6 +1,11 @@
 ---
 layout: base
 ---
+<head>
+  <script type="application/ld+json">
+    {{ page.schemadotorg | jsonify }}
+  </script>
+</head>
 {% include main_title.html %}
 <article>
   {{ content }}
